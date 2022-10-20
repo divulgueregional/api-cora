@@ -1,0 +1,19 @@
+{
+    "name": "divulgueregional/api-cora",
+    "description": "API para gerar boletos do Banco Cora",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Divulgueregional\\ApiCora\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Roseno Matos",
+            "email": "roseno@divulgueregional.com.br"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.0"
+    }
+}
